@@ -46,7 +46,7 @@
       }
       var out = net.forward();
       // Visualize frame
-      cv.imshow(output, out);
+      cv.imshow(output, frame);
       blob.delete();
       out.delete();
       setTimeout(captureFrame, 0);
